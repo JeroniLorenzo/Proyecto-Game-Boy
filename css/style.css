@@ -10,7 +10,6 @@
     border: 2px solid #000303;
     border-radius: 10px 10px 30px 30px;
     box-shadow: 0 6px 10px 0 rgb(3, 1, 1);
-    display: flex;
 }
 
 .pantalla1 {
@@ -33,7 +32,7 @@
     width: 5px;
     box-shadow: 0 0 3px 3px red;
     margin-top: 3em;
-    margin-left: 0.4em;
+    margin-left: 0.5em;
 }
 
 .letras{
@@ -65,4 +64,94 @@
 
 #r{
     color: rgb(4, 77, 185);
+}
+
+.pantalla2{
+    background-color: rgb(54, 54, 53);
+    height: 230px;
+    width: 230px;
+    border: 2px solid #000303;
+    margin: 0.3em;
+    margin-right: 0.3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+}
+
+.ab {
+    display: flex;
+    gap: 2rem;
+}
+
+button:hover{
+    background-color: #646363;
+}
+
+.b {
+  margin-top: 1rem;
+}
+
+
+.ab > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: #000303;
+    color: #646363;
+}
+
+.opciones {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.opciones-grupos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.pildora {
+    width: 2rem;
+    height: 0.5rem;
+    background-color: #000303;
+    border-radius: 0.25rem;
+}
+
+.letra-consola {
+    opacity: 0.8;
+}
+
+.nintendo {
+    display: flex;
+    justify-content: center;
+}
+
+.nintendo p {
+    border: #000303 2px solid;
+    border-radius: 50px;
+    margin-top: 1rem;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.cruz{
+    display: flex;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
 }
