@@ -161,6 +161,21 @@ button:hover{
     display: flex;
     justify-content: center;
 }
+#izq:hover{
+    background-color: #646363;
+}
+
+#arriba:hover{
+    background-color: #646363;
+}
+
+#abajo:hover{
+    background-color: #646363;
+}
+
+#derecha:hover{
+    background-color: #646363;
+}
 
 #izq {
     border-top-left-radius: 45%;
