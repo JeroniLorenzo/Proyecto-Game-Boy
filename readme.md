@@ -6,7 +6,7 @@ También he hecho uso de la herramineta flex box, que me ha servido para colocar
 
 En mi caso he optado por representar la Game Boy Color.
 
-He hecho diferentes <div></div> para ir metiendo los bloques de mayor a menor tamaño.
+He hecho diferentes contenedores (div) para ir metiendo los bloques de mayor a menor tamaño.
 
 En un contenedor general, dándole un ancho y un alto he ido "jugando" para ir poniendo  una pantalla(pantalla1) y una sub pantalla(encendido).
 
