@@ -111,7 +111,7 @@ button:hover{
     color: #646363;
 }
 
-.opciones {
+.opciones-altavoz {
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -256,3 +256,106 @@ button:hover{
     left: -55px;
 
 }
+
+.altavoz {
+    width: 50px;
+    height: 40px;
+    display: flex;
+    gap: 3px;
+}
+
+.punto{
+    background-image: linear-gradient(to top, #080808 0%, #3d3d3d 100%);
+    border: 1px solid rgb(65, 63, 63);
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;
+    box-shadow: 0 0 3px 3px rgb(46, 45, 45);
+    display: flex;
+}
+
+#p1{
+    position: relative;
+    bottom: 90%;
+    padding: 3px;
+    left: 100%;
+}
+
+#p2{
+    position: relative;
+    bottom: 90%;
+    padding: 3px;
+    left: 110%;
+}
+
+#p3{
+    position: relative;
+    bottom: 90%;
+    padding: 3px;
+    left: 120%;
+}
+
+#p4{
+    position: relative;
+    bottom: 90%;
+    padding: 3px;
+    left: 130%;
+}
+
+
+#p5{
+    position: relative;
+    bottom: 45%;
+    padding: 3px;
+    left: 108%;
+}
+
+#p6{
+    position: relative;
+    bottom: 45%;
+    padding: 3px;
+    left: 55%;
+}
+
+#p7{
+    position: relative;
+    bottom: 45%;
+    padding: 3px;
+    left: 2%;
+}
+
+#p8{
+    position: relative;
+    bottom: 45%;
+    padding: 3px;
+    right: 55%;
+}
+
+#p9{
+    position: relative;
+    top: 5%;
+    padding: 3px;
+    right: 76%;
+}
+
+#p10 {
+    position: relative;
+    top: 5%;
+    padding: 3px;
+    right: 66%;
+}
+
+#p11 {
+    position: relative;
+    top: 5%;
+    padding: 3px;
+    right: 56%;
+}
+
+#p12 {
+    position: relative;
+    top: 5%;
+    padding: 3px;
+    right: 46%;
+}
+
