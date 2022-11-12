@@ -151,7 +151,83 @@ button:hover{
 .cruz{
     display: flex;
     justify-content: center;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    gap: 1rem;
+}
+
+#left{
+    display: flex;
+    justify-content: center;
+}
+
+#izq {
+    border-top-left-radius: 45%;
+    border-bottom-left-radius: 45%;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000303;
+    width: 3rem;
+    height: 1.5rem;
+
+}
+
+#right{
+    display: flex;
+    justify-content: center;
+}
+
+#derecha {
+    border-top-right-radius: 45%;
+    border-bottom-right-radius: 45%;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000303;
+    width: 3rem;
+    height: 1.5rem;
+
+}
+
+#up{
+    display: flex;
+    justify-content: center;
+}
+
+#arriba {
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000303;
+    width: 3rem;
+    height: 1.5rem;
+
+}
+
+#down{
+    display: flex;
+    justify-content: center;
+}
+
+#abajo{
+    border-bottom-right-radius: 45%;
+    border-bottom-left-radius: 45%;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000303;
+    width: 3rem;
+    height: 1.5rem;
+
 }
