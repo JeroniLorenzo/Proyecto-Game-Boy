@@ -204,8 +204,8 @@ button:hover{
 }
 
 #izq {
-    border-top-left-radius: 45%;
-    border-bottom-left-radius: 45%;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
     border: solid black;
     border-width: 0 3px 3px 0;
     display: flex;
@@ -226,8 +226,8 @@ button:hover{
 }
 
 #derecha {
-    border-top-right-radius: 45%;
-    border-bottom-right-radius: 45%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
     border: solid black;
     border-width: 0 3px 3px 0;
     display: flex;
@@ -249,8 +249,8 @@ button:hover{
 }
 
 #arriba {
-    border-top-left-radius: 45%;
-    border-top-right-radius: 45%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
     border: solid black;
     border-width: 0 3px 3px 0;
     display: flex;
@@ -270,8 +270,8 @@ button:hover{
 }
 
 #abajo{
-    border-bottom-right-radius: 45%;
-    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
     border: solid black;
     border-width: 0 3px 3px 0;
     display: flex;
